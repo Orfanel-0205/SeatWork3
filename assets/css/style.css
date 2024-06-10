@@ -1,0 +1,39 @@
+.fa-basketball {
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 300%;
+
+}
+
+
+.basket1{
+   display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between  ;
+background-color: beige;
+    gap: 1%;
+    height: 6vh;
+    background-size:cover;
+    background-image: url('../img/r75275_1600x1000cc.jpg');
+background-size:5%;
+
+}
+.b1 {
+    flex-direction: row;
+    color:antiquewhite;
+    border: 20px;
+    padding: 7px 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 12px;
+    background: yellowgreen;
+    margin-right: 10px;
+
+    &:hover{
+        transform: rotate(30deg);
+            box-shadow: 10px 10px 0px 0px white;  
+          }
+    }
+
