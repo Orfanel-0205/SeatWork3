@@ -1,0 +1,398 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding-top: 30vh; 
+  }
+  
+  
+  .basket1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gold;
+    gap: 5%;
+    height: 6vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    background-size: cover;
+    background-image: url('../img/r75275_1600x1000cc.jpg');
+    background-position: 5rem;
+    background-size: 5%;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .b1 {
+    flex-direction: row;
+    color: rgb(250, 235, 215);
+    border: 20px;
+    padding: 7px 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 12px;
+    background: yellowgreen;
+    margin-right: 10px;
+  }
+  
+  .b1:hover {
+    transform: rotate(30deg);
+    box-shadow: 10px 10px 0px 0px white;
+  }
+  
+  .NPBL {
+    margin-left: 15%;
+    border: 1px;
+    border-radius: 4px;
+    padding: 10px;
+    width: 250px;
+  }
+  
+  .fa-basketball {
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 300%;
+  }
+  
+  /* Part2 Header */
+  header.Part2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    position: fixed;
+    top: 6vh;
+    width: 100%;
+    z-index: 4;
+  }
+  
+  header.Part2 i {
+    font-size: 24px;
+    animation: moveChessPiece 2s infinite;
+  }
+  
+  @keyframes moveChessPiece {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+  }
+  
+  .TITLE2 {
+    font-style: italic;
+    margin-left: 20%;
+    font-size: medium;
+  }
+  
+  .fa-chess {
+    margin-right: .5cap;
+  }
+  
+  .nav2 {
+    text-decoration: none;
+  }
+  
+  .b2 {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 5px;
+  }
+  
+  .b2:hover {
+    background-color: #555;
+    transform: translateY(-3px);
+  }
+  
+  
+  .Part3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ff6f61, #ff9051);
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 12vh;
+    width: 100%;
+    z-index: 3;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  
+  .logo3 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .fa-paw {
+    font-size: 2rem;
+    animation: wave 1s infinite;
+    margin-right: 10px;
+  }
+  
+  @keyframes wave {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(-20deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(20deg); }
+  }
+  
+  .header-title {
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin: 0;
+  }
+  
+  .search-bar1 {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 40%;
+    max-width: 500px;
+    transition: width 0.4s ease-in-out;
+    margin: 0 20px;
+  }
+  
+  .search-bar1:focus {
+    width: 45%;
+    outline: none;
+    border-color: #ff8800;
+  }
+  
+  .nav2 {
+    text-decoration: none;
+  }
+  
+  .b2 {
+    background: #ff9051;
+    color: #fff;
+  }
+  
+  .b2:hover {
+    background: #ff6f61;
+  }
+  
+  .b3 {
+    background: #fff;
+    color: #ff6f61;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .b3:hover {
+    background: #ff9051;
+    color: #fff;
+  }
+  
+  .Part4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: linear-gradient(to right, #333, #555);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 18vh;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  .logo4 {
+    display: flex;
+    align-items: center;
+    animation: bounce 2s infinite;
+  }
+  
+  .fa-book-skull {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: #ffcc00;
+  }
+  
+  .PDC {
+    font-size: 28px;
+    color: #ffcc00;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .nav5 {
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+  }
+  
+  .b4 {
+    background: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .b4:hover {
+    background: #ffa500;
+    color: #fff;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+  }
+  
+  .Part5 {
+    height: 6.9vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items on the opposite ends */
+    padding: 20px;
+    overflow: hidden;
+    position: fixed;
+    top: 24vh;
+    width: 100%;
+    z-index: 1;
+    margin-top: 1%;
+  }
+  
+  .logo5 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  .car-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15%;
+    flex-grow: 1;
+  }
+  
+  .fa-truck-front,
+  .fa-bus,
+  .fa-car-rear {
+    font-size: 3rem;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .fa-truck-front {
+    animation: truck-drive 5s infinite linear;
+  }
+  
+  .fa-bus {
+    animation: bus-drive 4s infinite linear;
+  }
+  
+  .fa-car-rear {
+    animation: car-drive 3s infinite linear;
+  }
+  
+  .nav5 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .b5 {
+    background-color: #fff;
+    color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .b5:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .LTG {
+    font-size: 36px;
+    margin: 0;
+    opacity: 0.8;
+    animation: fade-in-out 5s infinite alternate;
+  }
+  
+  @keyframes truck-drive {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-50px);
+    }
+  }
+  
+  @keyframes bus-drive {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+  }
+  
+  @keyframes car-drive {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-150px);
+    }
+  }
+  
+  @keyframes fade-in-out {
+    0%, 100% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 1;
+    }
+  }
+  .animation-title{
+    margin-top: 120px;
+    text-align: center;
+  }
+  .header-animation{
+    display: flex;
+    justify-content: center;
+  }
