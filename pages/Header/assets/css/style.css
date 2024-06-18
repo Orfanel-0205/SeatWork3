@@ -56,9 +56,10 @@ body {
   z-index: 5;
   background-size: cover;
   background-image: url('../img/r75275_1600x1000cc.jpg');
-  background-position: 5rem;
+  background-position: 10rem;
   background-size: 5%;
   background-repeat: no-repeat;
+  
 }
 
 .b1 {
@@ -93,8 +94,9 @@ body {
   font-size: 300%;
 }
 
-/* Part2 Header */
-header.Part2 {
+
+.Part2 {
+  margin-top: 2px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -107,7 +109,7 @@ header.Part2 {
   z-index: 4;
 }
 
-header.Part2 i {
+.Part2 i {
   font-size: 24px;
   animation: moveChessPiece 2s infinite;
 }
@@ -151,6 +153,7 @@ header.Part2 i {
 }
 
 .Part3 {
+  margin-top: .5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -158,12 +161,13 @@ header.Part2 i {
   background: linear-gradient(to right, #ff6f61, #ff9051);
   color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  top: 12vh;
+    position: fixed;
+  top: 10vh;
   width: 100%;
-  z-index: 3;
-  margin-top: 1%;
-  margin-bottom: 1%;
+ 
+  
+
+  
 }
 
 .logo3 {
@@ -238,16 +242,19 @@ header.Part2 i {
 }
 
 .Part4 {
+  margin-top: 3%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
+
   background: linear-gradient(to right, #333, #555);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: fixed;
-  top: 18vh;
+  top: 10vh;
   width: 100%;
   z-index: 2;
+  padding: 20px 40px;
+  
 }
 
 .logo4 {
@@ -272,7 +279,7 @@ header.Part2 i {
 .nav5 {
   text-decoration: none;
   margin-left: 10px;
-  color: white;
+  color:rgb(255, 10, 10);
 }
 
 .b4 {
@@ -304,21 +311,20 @@ header.Part2 i {
 }
 
 .Part5 {
-  height: 6.9vh;
-  font-family: 'Arial', sans-serif;
-  background-color: #4CAF50;
-  color: white;
+  top: 10vh;
+  margin-top: 6%;
+  background-color: green;
+  padding: 20px 40px; 
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Align items on the opposite ends */
-  padding: 20px;
-  overflow: hidden;
+  justify-content: space-between;
+  color: yellow;
   position: fixed;
-  top: 24vh;
   width: 100%;
-  z-index: 1;
-  margin-top: 1%;
+  z-index: 5;
+  
 }
+
 
 .logo5 {
   display: flex;
@@ -335,7 +341,7 @@ header.Part2 i {
   flex-grow: 1;
 }
 
-.fa-truck-front,
+
 .fa-bus,
 .fa-car-rear {
   font-size: 3rem;
@@ -346,9 +352,7 @@ header.Part2 i {
   transform: translate(-50%, -50%);
 }
 
-.fa-truck-front {
-  animation: truck-drive 5s infinite linear;
-}
+
 
 .fa-bus {
   animation: bus-drive 4s infinite linear;
@@ -356,16 +360,36 @@ header.Part2 i {
 
 .fa-car-rear {
   animation: car-drive 3s infinite linear;
+  margin-left: 4%;
 }
 
 .nav5 {
+  
+  
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 2%;
+  margin-right: 2%;
+  
+
 }
 
-.b5 {
-  background-color: #fff;
-  color: #4CAF50;
-  border:
+@keyframes bus-drive {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(90%); }
+
+}
+
+@keyframes car-drive {
+  0% { transform: translateX(-90%); }
+  100% { transform: translateX(100%); }
+}
+.b5{
+  color: white;
+background-color: #ff5e5c;
+height: 6vh;
+gap: 10%;
+
+}
