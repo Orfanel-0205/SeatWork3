@@ -13,14 +13,14 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  The project consists of 1 logo and 5 containers each header/footer
+  To create 5 unique designs for both static and animated header and footer
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=Orfanel-0205/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Orfanel-0205/WD-Seatwork3)
 
 ---
 
@@ -57,7 +57,10 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+I learned different styles and animations for header and footer, this kind of knowledge will help me in the future and this is contained of combination of html and css' static and animated design.
+Hover & Animation Consist of a logo and containers.
+
+
 
 Guiding Question:
 - What is the project
@@ -68,15 +71,14 @@ Guiding Question:
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+-Creating static and animated headers
+-Creating static and animated footers
 
 ### Technology
 <!-- TODO: List of Technology Used -->
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+![HTML]https://fontawesome.com/
+![CSS]none
+![JavaScript]none
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -99,12 +101,15 @@ WD-ProjectName
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
+|  └─ Footer
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  |  └─ 436542541_830439851882205_2559245448223163316_n-removebg-preview.png
+              └─445381962_968613798245838_3552973813564424418_n-removebg-preview (1).jpg
+              └─r75275_1600x1000cc.jpg
+
 |     |  └─ js
 |     |     └─ script.js
 |     └─ index.html
@@ -115,6 +120,6 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-| Title | Purpose | Link |
+|WD-Seatwork3| Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
