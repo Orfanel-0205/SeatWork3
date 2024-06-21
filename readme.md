@@ -56,17 +56,8 @@
 ## Overview
 
 <!-- TODO: To be changed -->
-<!-- The following are just sample -->
-I learned different styles and animations for header and footer, this kind of knowledge will help me in the future and this is contained of combination of html and css' static and animated design.
-Hover & Animation Consist of a logo and containers.
+A programming task centered around designing a Header and Footer using HTML and CSS. This task will involve utilizing transitions and hover effects to animate the navigation elements. Furthermore, it will implement animation methods with keyframes.
 
-
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -93,7 +84,7 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-SeatWork3
 └─ assets
 |   └─ css
 |   |   └─ style.css
@@ -123,5 +114,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 |WD-Seatwork3| Purpose | Link |
 |-|-|-|
-| w3schools | To learn code structures and usage of an element | https://www.w3schools.com/css/default.asp |
+| w3schools | To learn code structures and usage of an element for css and html| https://www.w3schools.com/css/default.asp |
 | fontawesome | For icons and fonts to add design to the header and footer's containers| https://fontawesome.com |
