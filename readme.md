@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=Orfanel-0205/WD-Seatwork3)
+![](https://visit-counter.vercel.app/counter.png?page=Orfanel-0205/WD-Seatwork3
 
 ---
 
@@ -65,7 +65,7 @@ A programming task centered around designing a Header and Footer using HTML and 
 -Creating static and animated headers
 -Creating static and animated footers
 -Breadcrumbs
--Multi-view
+-Multipage website
 
 ### Technology
 <!-- TODO: List of Technology Used -->
