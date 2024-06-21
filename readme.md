@@ -123,4 +123,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 |WD-Seatwork3| Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| w3schools | To learn code structures and usage of an element | https://www.w3schools.com/css/default.asp |
+| fontawesome | For icons and fonts to add design to the header and footer's containers| https://fontawesome.com |
