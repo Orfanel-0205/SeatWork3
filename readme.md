@@ -73,12 +73,13 @@ Guiding Question:
 <!-- The following are just sample -->
 -Creating static and animated headers
 -Creating static and animated footers
+-Breadcrumbs
+-Multi-view
 
 ### Technology
 <!-- TODO: List of Technology Used -->
-![HTML]https://fontawesome.com/
-![CSS]none
-![JavaScript]none
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
