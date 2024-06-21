@@ -60,8 +60,6 @@ A programming task centered around designing a Header and Footer using HTML and 
 
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
 -Creating static and animated headers
 -Creating static and animated footers
 -Breadcrumbs
